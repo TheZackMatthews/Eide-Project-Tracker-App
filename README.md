@@ -16,8 +16,8 @@ Make sure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/project-management-tool.git
-    cd project-management-tool
+    git clone https://github.com/TheZackMatthews/Eide-Project-Tracker-App.git
+    cd eide-project-tracker-app
     ```
 
 2. Install dependencies for both backend and frontend:
@@ -27,13 +27,7 @@ Make sure you have the following installed:
     npm install
     
     # Install frontend dependencies
-    cd ../frontend
-    npm install
-    ```
-
-3. Install Storybook dependencies:
-    ```bash
-    cd ../storybook
+    cd ../project-tracker-client
     npm install
     ```
 
@@ -47,13 +41,13 @@ Make sure you have the following installed:
 
 2. Start the frontend development server:
     ```bash
-    cd ../frontend
+    cd ../project-tracker-client
     npm start
     ```
 
 3. Start Storybook:
     ```bash
-    cd ../storybook
+    cd ../project-tracker-client
     npm run storybook
     ```
 
@@ -62,7 +56,7 @@ The backend server will run on `http://localhost:5000`, the frontend will run on
 ## Development Workflow
 
 - **Backend**: All API-related code should go into the `backend` directory. Organize controllers, models, and routes accordingly.
-- **Frontend**: All UI components and pages should go into the `frontend` directory. Organize components and services as needed.
+- **Frontend**: All UI components and pages should go into the `project-tracker-client` directory. Organize components and services as needed.
 - **Storybook**: All component stories should be placed in the `storybook/stories` directory.
 
 ## Contributing
@@ -75,14 +69,6 @@ Contributions are welcome! Please follow these steps:
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or suggestions, please contact [yourname@eidemachinery.com](mailto:yourname@eidemachinery.com).
-
----
-
-Happy Coding!
+For any questions or suggestions, please contact [zmatthews@eidemachinery.com](mailto:zmatthews@eidemachinery.com).
